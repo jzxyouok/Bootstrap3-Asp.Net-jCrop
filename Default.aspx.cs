@@ -172,4 +172,8 @@ public partial class _Default : System.Web.UI.Page
             thumbnailImg.Save(targetPath, image.RawFormat);
         }
     }
+    protected void butImageCropClose_Click(object sender, EventArgs e)
+    {
+        Response.Redirect(Request.Url.AbsoluteUri);
+    }
 }

@@ -95,7 +95,7 @@
                     <div class="modal-footer">
                         <asp:Button ID="butImageCrop" runat="server" Text="Crop" CssClass="btn btn-primary"
                             OnClick="butImageCrop_Click" />
-                        <asp:Button ID="butImageCropClose" runat="server" Text="Close" CssClass="btn btn-default" />
+                        <asp:Button ID="butImageCropClose" runat="server" Text="Close" OnClick="butImageCropClose_Click" CssClass="btn btn-default" />
                     </div>
                 </div>
                 <!-- /.modal-content -->
